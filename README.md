@@ -15,3 +15,6 @@ The user can simply download the files utils_BO.py and wemd.py. The main alignme
 - Whether to perform refinement: True or False 
 
 The data folder contains one test volume (more can be found on [EMDB](https://www.ebi.ac.uk/emdb/)). The test_BOTalign.py conducts a comparison on four combinations of the parameters that we illustrated in the manuscript.  
+
+# Comparisons
+To reproduce the comparison results in the manuscript, install the [EMalign](https://github.com/ShkolniskyLab/emalign) and the [alignOT](https://github.com/artajmir3/alignOT) packages, and run test_comparison.py. For alignOT, one needs to download all the files in their alignOT folder and put them in the same directory as test_comparison.py. 
