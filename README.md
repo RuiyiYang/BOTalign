@@ -8,7 +8,7 @@ The algorithm requires the following packages:
 - mrcfile
 - pymanopt
 # Usage
-The user can simply download the files utils_BO.py and wemd.py. The main alignment algorithm can be found in utils_BO.py as align_BO, which takes in the two volumes to be aligned and four parameters:
+The user can simply download the files utils_BO.py and wemd.py. The main alignment algorithm can be found in utils_BO.py as align_BO, which takes in the two volumes $V_1,V_2$ to be aligned and four parameters:
 - Loss type: 'wemd' or 'eu' 
 - Downsampling level: an integer 
 - Number of iterations: an integer 
