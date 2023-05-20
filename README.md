@@ -1,5 +1,5 @@
 # BOTalign
-This is an algorithm for aligning three-dimensional objects represented as density maps. 
+This is an algorithm for aligning three-dimensional objects represented as three dimensional arrays $V_1,V_2\in \mathbb{R}^{L\times L\times L}$.
 # Dependencies
 The algorithm requires the following packages:
 - [ASPIRE](https://github.com/ComputationalCryoEM/ASPIRE-Python)
